@@ -1,0 +1,49 @@
+ 34  lynis                    available    [ =stable ]
+ 36  BCC                      available    [ =0.x  =stable ]
+ 37  mono                     available    [ =5.x  =stable ]
+ 38  nginx1                   available    [ =stable ]
+ 40  mock                     available    [ =stable ]
+ 43  livepatch                available    [ =stable ]
+ 44 †python3.8=latest         enabled      [ =stable ]
+ 45  haproxy2                 available    [ =stable ]
+ 46  collectd                 available    [ =stable ]
+ 47  aws-nitro-enclaves-cli   available    [ =stable ]
+ 48  R4                       available    [ =stable ]
+  _  kernel-5.4               available    [ =stable ]
+ 50  selinux-ng               available    [ =stable ]
+ 52  tomcat9                  available    [ =stable ]
+ 53  unbound1.13              available    [ =stable ]
+ 54 †mariadb10.5=latest       enabled      [ =stable ]
+ 55  kernel-5.10=latest       enabled      [ =stable ]
+ 56  redis6                   available    [ =stable ]
+ 58 †postgresql12             available    [ =stable ]
+ 59 †postgresql13             available    [ =stable ]
+ 60  mock2                    available    [ =stable ]
+ 61  dnsmasq2.85              available    [ =stable ]
+ 62  kernel-5.15              available    [ =stable ]
+ 63 †postgresql14             available    [ =stable ]
+ 64  firefox                  available    [ =stable ]
+ 65  lustre                   available    [ =stable ]
+  _ †php8.1                   available    [ =stable ]
+ 67  awscli1                  available    [ =stable ]
+ 68 †php8.2=latest            enabled      [ =stable ]
+ 69  dnsmasq                  available    [ =stable ]
+ 70  unbound1.17              available    [ =stable ]
+ 72  collectd-python3         available    [ =stable ]
+* Extra topic has reached end of support.
+† Note on end-of-support. Use 'info' subcommand.
+jean:~/environment $ ls
+README.md  terraform-Metro  testMetro
+jean:~/environment $ git clone https://github.com/chancelierF/devopsexam.git
+Cloning into 'devopsexam'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+jean:~/environment $ cd 
+.c9/             devopsexam/      terraform-Metro/ testMetro/       
+jean:~/environment $ cd devopsexam/
+jean:~/environment/devopsexam (main) $ git checkout -b final-exam
+Switched to a new branch 'final-exam'
+jean:~/environment/devopsexam (final-exam) $ touch Newfile.txt
+jean:~/environment/devopsexam (final-exam) $ ls
